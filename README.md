@@ -6,6 +6,8 @@ $ cd docker
 $ docker compose up
 Connect to php-fpm container:
 $ docker container exec -it php-fpm /bin/bash
+Install dependecies:
+$ compsoser install
 Run migrations inside of it:
 $ php bin/console d:m:m
 Run tests:
